@@ -1,0 +1,24 @@
+config interface loopback
+	option ifname   lo
+        option proto    static
+        option ipaddr   127.0.0.1
+        option netmask  255.0.0.0
+
+config interface eth0
+	option macaddr  22:DA:E2:00:00:05
+
+config interface eth1
+	option macaddr  22:DA:E2:00:01:05
+
+config interface eth2
+	option macaddr  22:DA:E2:00:02:05
+
+config interface eth3
+	option macaddr  22:DA:E2:00:03:05
+
+config interface eth4
+	option proto    static
+	option ipaddr   192.168.2.205
+	option netmask  255.255.255.0
+	option macaddr  22:DA:E2:00:04:01
+

@@ -1,0 +1,14 @@
+#!/bin/sh /etc/rc.common
+# Copyright (C) 2006 OpenWrt.org
+
+START=99
+start() {
+	ifup -a
+	touch /var/run/zebra.pid
+	/usr/sbin/zebra -d -u root -g root -i /var/run/zebra.pid
+}
+
+stop() {
+	kill `cat /var/run/zebra.pid`
+}
+

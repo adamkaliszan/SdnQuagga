@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1391117158 source:/home/adam/projekty/Distributedquagga-0.99.21/accessServer/main.c
+	<avr/io.h>
+	<avr/fuse.h>
+	"hardware.h"
+
+1391117128 source:/home/adam/projekty/Distributedquagga-0.99.21/accessServer/hardware.c
+	<avr/io.h>
+	"hardware.h"
+
+1391115612 /home/adam/projekty/Distributedquagga-0.99.21/accessServer/hardware.h
+	<avr/io.h>
+
+1453311093 source:/home/adam/projekty/hybridRouting/accessServer/main.c
+	<avr/io.h>
+	<avr/fuse.h>
+	<util/delay.h>
+	"hardware.h"
+
+1453301359 /home/adam/projekty/hybridRouting/accessServer/hardware.h
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1453301359 source:/home/adam/projekty/hybridRouting/accessServer/hardware.c
+	"hardware.h"
+
